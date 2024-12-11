@@ -13,7 +13,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'https://golden-starlight-73dc60.netlify.app',
+  origin: 'https://jade-bunny-3b6c31.netlify.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Adjust methods as needed
   credentials: true // Optional if you need credentials like cookies
 }));
